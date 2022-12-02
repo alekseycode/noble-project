@@ -2,6 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 img {
@@ -35,6 +37,7 @@ header {
     "name"
     "bio"; 
 }
+
 
 p {
     margin: 0 auto;
@@ -75,6 +78,14 @@ iframe {
     grid-area: bio;
 }
 
+.example {
+    padding: 25px;
+}
+main ul, {
+    padding: 25px;
+    list-style: none;
+}
+
 
 
 
@@ -97,3 +108,4 @@ iframe {
     }
 
 
+}
