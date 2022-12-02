@@ -18,3 +18,12 @@ input.addEventListener("keyup", (event) => {
     });
   }
 });
+
+//Parallax script effect
+
+const parallax = document.getElementByClass("parallax");
+
+window.addEventListener("scroll", () => {
+  let offset = window.pageYOffset;
+  parallax.style.backgroundPositionY = offset * 0.7 + "px;";
+});
