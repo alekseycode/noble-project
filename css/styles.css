@@ -1,10 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+*, *::before, *::after { box-sizing: border-box; }
 
 img {
   max-width: 100%;
@@ -12,7 +6,6 @@ img {
 
 body {
   background-color: rgba(13, 163, 209, 0.877);
-  margin: 0;
   text-align: center;
 }
 
@@ -52,11 +45,8 @@ nav a {
 }
 
 .hero-img {
-  background: url(../images/otono-day-cohort-JS-Bootcamp-Dec-1-2022-4.jpg) fixed;
-
-  background-size: 110%;
-  background-position: 12% 45%;
-
+  background: url(../images/otono-day-cohort-JS-Bootcamp-Dec-1-2022-4.jpg);
+  background-size: 115%;
 
   /* background-position-x: 70px; */
   background-repeat: no-repeat;

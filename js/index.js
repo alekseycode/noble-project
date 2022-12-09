@@ -10,7 +10,9 @@ gsap.from(featureDivs, {
   opacity: 0,
 });
 
+//Adding parallax effect\/
+const hero = document.querySelector(".hero-img");
 
-// window.addEventListener("scroll", () => {
-//   hero.style.backgroundPositionY = window.pageXOffset * 0.7 + "px";
-// });
+window.addEventListener("scroll", () => {
+  hero.style.backgroundPositionY = window.scrollY * 0.7 + "px";
+});
