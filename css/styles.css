@@ -11,8 +11,7 @@ img {
 }
 
 body {
-  background-color: rgba(185, 107, 35, 0.877);
-  /* change this color please */
+  background-color: rgba(13, 163, 209, 0.877);
   margin: 0;
   text-align: center;
 }
@@ -33,11 +32,11 @@ header {
   grid-area: header;
 }
 
-.nav {
+nav {
   grid-area: nav;
 }
 
-.nav ul {
+nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
@@ -45,6 +44,11 @@ header {
   padding: 1rem;
   margin: 0;
   font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
 }
 
 .hero-img {
@@ -72,4 +76,8 @@ header {
 footer {
   grid-area: footer;
   margin-bottom: 5px;
+}
+
+footer p {
+  color: white;
 }
