@@ -9,14 +9,9 @@ img {
 }
 
 body {
-  background-color: rgba(13, 163, 209, 0.877);
+  background-color: rgb(13, 163, 209);
   text-align: center;
-}
-
-.container {
-  display: grid;
-  background-color: white;
-  margin: 45px;
+  overflow-x: hidden;
 }
 
 nav {
@@ -24,7 +19,6 @@ nav {
   width: 100%;
   background-color: rgba(13, 163, 209, 0.877);
 }
-
 nav ul {
   list-style-type: none;
   display: flex;
@@ -32,9 +26,8 @@ nav ul {
   text-transform: uppercase;
   padding: 1rem;
   margin: 0;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
-
 nav a {
   text-decoration: none;
   color: white;
@@ -42,12 +35,10 @@ nav a {
 
 .hero-img {
   background: url(../images/otono-day-cohort-JS-Bootcamp-Dec-1-2022-4.jpg);
-  background-size: 115%;
-
-  /* background-position-x: 70px; */
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
-  /* max-width: 100%; */
-  grid-area: hero;
+
   padding: 200px 0;
   height: 40vh;
   width: 100vw;
@@ -59,11 +50,11 @@ main a {
 }
 
 .featured-content {
-  margin: 30px;
+  background-color: white;
+  margin: 30px 60px;
 }
-
 .feature {
-  margin: 60px auto;
+  padding: 30px;
 }
 
 footer {
