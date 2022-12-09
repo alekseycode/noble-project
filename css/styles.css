@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: rgba(13, 163, 209, 0.877);
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  background-color: white;
+  margin: 45px;
+  grid-template-areas:
+    "nav nav nav nav"
+    "hero hero hero hero"
+    "header header header header"
+    "feature feature feature feature"
+    "footer footer footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 0;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-img {
+  background-image: url(../images/otono-day-cohort-JS-Bootcamp-Dec-1-2022-4.jpg);
+  background-size: 115%;
+  background-position: 12% 33%;
+
+  /* background-position-x: 70px; */
+  background-repeat: no-repeat;
+  max-width: 100%;
+  grid-area: hero;
+  padding: 200px 0;
+  width: 100vw;
+}
+
+.featured-content {
+  grid-area: feature;
+  margin: 30px;
+}
+
+.feature {
+  margin: 60px auto;
+}
+
+footer {
+  grid-area: footer;
+  margin-bottom: 5px;
+}
+
+footer p {
+  color: white;
+}
