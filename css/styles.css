@@ -13,20 +13,12 @@ body {
   display: grid;
   background-color: white;
   margin: 45px;
-  grid-template-areas:
-    "nav nav nav nav"
-    "hero hero hero hero"
-    "header header header header"
-    "feature feature feature feature"
-    "footer footer footer footer";
-}
-
-header {
-  grid-area: header;
 }
 
 nav {
-  grid-area: nav;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(13, 163, 209, 0.877);
 }
 
 nav ul {
@@ -58,7 +50,6 @@ nav a {
 }
 
 .featured-content {
-  grid-area: feature;
   margin: 30px;
 }
 
@@ -67,7 +58,6 @@ nav a {
 }
 
 footer {
-  grid-area: footer;
   margin-bottom: 5px;
 }
 
