@@ -50,43 +50,43 @@ function backGround() {
 }
 
 function change1() {
-  header.style.background = "url('../img/pic1.jpg')";
+  header.style.background = "url('img/pic1.jpg')";
   backGround();
 }
 function change2() {
-  header.style.background = "url('../img/pic2.jpg')";
+  header.style.background = "url('img/pic2.jpg')";
   backGround();
 }
 function change3() {
-  header.style.background = "url('../img/pic3.jpg')";
+  header.style.background = "url('img/pic3.jpg')";
   backGround();
 }
 function change4() {
-  header.style.background = "url('../img/pic4.jpg')";
+  header.style.background = "url('img/pic4.jpg')";
   backGround();
 }
 function change5() {
-  header.style.background = "url('../img/pic5.jpg')";
+  header.style.background = "url('img/pic5.jpg')";
   backGround();
 }
 function change6() {
-  header.style.background = "url('../img/pic6.jpg')";
+  header.style.background = "url('img/pic6.jpg')";
   backGround();
 }
 function change7() {
-  header.style.background = "url('../img/pic7.jpg')";
+  header.style.background = "url('img/pic7.jpg')";
   backGround();
 }
 function change8() {
-  header.style.background = "url('../img/pic8.jpg')";
+  header.style.background = "url('img/pic8.jpg')";
   backGround();
 }
 function change9() {
-  header.style.background = "url('../img/pic9.jpg')";
+  header.style.background = "url('img/pic9.jpg')";
   backGround();
 }
 function change10() {
-  header.style.background = "url('../img/pic10.jpg')";
+  header.style.background = "url('img/pic10.jpg')";
   backGround();
 }
 
