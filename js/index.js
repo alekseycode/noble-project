@@ -9,6 +9,7 @@ gsap.from(featureDivs, {
   duration: 3,
   opacity: 0,
 });
+
 //Adding parallax effect\/
 const hero = document.querySelector(".hero-img");
 

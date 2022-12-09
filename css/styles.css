@@ -50,9 +50,10 @@ nav a {
 
   /* background-position-x: 70px; */
   background-repeat: no-repeat;
-  max-width: 100%;
+  /* max-width: 100%; */
   grid-area: hero;
   padding: 200px 0;
+  height: 40vh;
   width: 100vw;
 }
 
