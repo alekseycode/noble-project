@@ -52,7 +52,7 @@ nav a {
 }
 
 .hero-img {
-  background-image: url(../images/otono-day-cohort-JS-Bootcamp-Dec-1-2022-4.jpg);
+  background: url(../images/otono-day-cohort-JS-Bootcamp-Dec-1-2022-4.jpg) fixed;
   background-size: 115%;
   background-position: 12% 33%;
 
