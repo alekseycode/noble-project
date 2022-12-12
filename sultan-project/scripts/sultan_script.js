@@ -46,7 +46,8 @@ function backGround() {
   header.style.backgroundSize = "content";
   header.style.backgroundRepeat = "no-repeat";
   header.style.backgroundPosition = "center";
-  header.style.backgroundAttachment = "fixed";
+  // header.style.backgroundAttachment = "fixed";
+  header.style.height = "100vh";
 }
 
 function change1() {
